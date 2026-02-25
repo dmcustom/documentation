@@ -2,7 +2,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main] # หรือเปลี่ยนเป็น master ตามชื่อ branch หลักของคุณ
+    branches:
+      - main  # หรือชื่อ branch หลักของคุณ
 
 permissions:
   contents: write
@@ -14,18 +15,19 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: 'npm'
+          node-version: 25
+          cache: 'npm' # หรือ 'yarn' / 'pnpm'
 
       - name: Install dependencies
-        run: npm install
+        run: npm install # หรือ yarn install
 
-      - name: Build and Deploy
-        run: |
-          git config --global user.name "dmcustom"
-          git config --global user.email "dmcustom@users.noreply.github.com"
-          npm run deploy
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build website
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build # โฟลเดอร์ที่ได้จากการ build
