@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Dismay Custom',
   tagline: 'PCS & LMS Documentation',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/dismay-logo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -92,7 +92,7 @@ const config = {
         title: 'Dismay Custom',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/dismay-custom.png',
+          src: 'img/dismay-logo.png',
         },
         items: [
 		  {
@@ -161,7 +161,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Dismay Custom. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

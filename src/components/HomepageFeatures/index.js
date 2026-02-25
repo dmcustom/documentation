@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'User Guide',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    image: require('@site/static/img/dismay-good.png').default,
     description: (
       <>
 Includes complete guides on installation, usage, and customization for both the PCS and LMS.
@@ -14,7 +14,7 @@ Includes complete guides on installation, usage, and customization for both the 
   },
   {
     title: 'FAQ / Troubleshooting',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    image: require('@site/static/img/dismay-what.png').default,
     description: (
       <>
 Got questions? Our Frequently Asked Questions and troubleshooting solutions are here to help.
@@ -23,7 +23,7 @@ Got questions? Our Frequently Asked Questions and troubleshooting solutions are 
   }, 
   {
     title: 'Customization',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    image: require('@site/static/img/dismay-yay.png').default,
     description: (
       <>
 If you’re looking for a guide to customize the system, we’ve got you covered.
@@ -32,11 +32,20 @@ If you’re looking for a guide to customize the system, we’ve got you covered
   },  
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, image, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        {Svg && (
+          <Svg className={styles.featureSvg} role="img" />
+        )}
+        {image && (
+          <img
+            src={image}
+            className={styles.featureSvg}
+            alt={title}
+          />
+        )}
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
