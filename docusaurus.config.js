@@ -161,7 +161,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Dismay Custom. Built with Docusaurus.`,
+        copyright: `Copyright © 2026 Dismay Custom. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
