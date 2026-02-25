@@ -5,7 +5,9 @@ hide_title: true
 
 <div align="center">
 
-<img src="/img/pcs-logo.png" width="540" />
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img src={useBaseUrl('/img/pcs-logo.png')} width="540" />
 ## Dynamic NSFW Sound System for Avatars
 Detects and generates NSFW sound effects and voice responses up to 5 different insertion patterns with seamless detection.
 Featured Non-Destructive Modular Framework (NDMF) tools, meaning it can be installed or removed without affecting your original avatar.
@@ -47,7 +49,8 @@ This includes streamers, VTubers, and anyone involved in producing commercial vi
 - It would be highly appreciated if you credit **Dismay Custom** and **PCS** on your shop page.
 - You must exclude PCS script files from your exported avatar package to prevent re-distribution.
   - The script folder is located in: `Assets/!Dismay Custom/Penetration Contact System/Editor/Scripts`.
-<img src="/img/pcs-script.png" width="540" />
+  
+<img src={useBaseUrl('/img/pcs-script.png')} width="540" />
 
 - Your customer still can use PCS normally without the scripts. **Just make sure that all #GENERATE assets are exported as well.**
 - Your customer doesn't have to buy PCS to use it. They can buy it if they want to update and change things.

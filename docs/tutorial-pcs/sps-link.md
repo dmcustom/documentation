@@ -1,3 +1,5 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # SPS Menu Linking
 
 Since PCS is designed differently from SPS but serves a similar purpose in adult interactions, convenience is highly valued by most users — especially without having to switch back and forth between menus.
@@ -8,6 +10,8 @@ Eventhough, PCS wasn't made to directly intergate with SPS, we still can link th
 2. Enable `Enable Active Animation` option.
 3. Click `Add Action +` and choose `Set an FX Float`
 4. Enter the desired PCS menu parameter into the field. A full list of menu parameters is provided below.
+
+<img src={useBaseUrl('/img/pcs-sps-link.png')} width="960" />
 
 :::tip Tip
 For Custom Position, you can assign both the sound parameter and the custom position parameter together, for example: `pcs/select/pussy` + `pcs/select/custom1`

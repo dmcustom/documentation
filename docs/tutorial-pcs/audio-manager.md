@@ -1,3 +1,5 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Change Sound Effect
 
 This guide will tell you how to change the sound effects and voice pack using the Audio Manager tool.
@@ -23,7 +25,7 @@ This tool provides a quick and simple way to change the sound effects for your P
    - 3.1 Click `+` to add an empty slot, then drag and drop your audio file(s) into the field.
    - 3.2 Click `-` to remove any slot you do not wish to replace.
 4. Click `Apply New Audi` or `Apply New Voice` to confirm and replace the sounds.
-<img src="/img/pcs-audio-manager1.png" width="540" />
+<img src={useBaseUrl('/img/pcs-audio-manager1.png')} width="540" />
 
 ## Method B: Manual Replace
 :::info Info
@@ -34,7 +36,7 @@ This method may not be the easiest or most convenient, but it allows you to dire
 1. Right-click your `!PCS Controller_[avatar name]` and select `Open`
 2. Go to the Animator window and select the layer named `PCS: Audio Controller` to locate all sound states.
 3. Select the sound state you want to modify, then drag and drop your audio files into the `VRC Animator Play Audio` → `Clips`.
-<img src="/img/pcs-audio-manager2.png" width="960" />
+<img src={useBaseUrl('/img/pcs-audio-manager2.png')} width="960" />
 
 ---
 

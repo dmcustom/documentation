@@ -1,3 +1,5 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Detection Output Parameter
 
 This guide will teach you how to use PCS parameters from the detection system on your own animator controller — to create dynamic and exciting animations,
@@ -26,7 +28,7 @@ To use any of these parameters, you need to follow the steps below.
     - Make sure you enter the correct parameter name and type. Otherwise, it will create a different parameter and will not sync with PCS.
 3. You can then freely use that parameter in your animation conditions.
 
-<img src="/img/pcs-example-fx.png" width="960" />
+<img src={useBaseUrl('/img/pcs-example-fx.png')} width="960" />
 <div style={{ textAlign: 'center' }}>
 *This example demonstrates how to use `pcs/output/smash-intensity` parameter to reference impact intensity values in order to play different animations.*
 </div>

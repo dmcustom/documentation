@@ -1,3 +1,5 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Installation
 This guide will explain how to install PCS system onto your avatar using non-destructive tools such as Modular Avatar and VRCFury.
 Manual installation is not yet supported. For a video tutorial, please refer to [the tutorial video playlist](https://youtube.com/playlist?list=PLEvAOTfSR8u2fdM_HnFtkXuaqvAEp2WtS&si=qE1o4y8qT6cYrO52)
@@ -26,7 +28,8 @@ drag and drop your avatar into the box and you will see a window like this:
 If you cannot find the tool, please check and fix any errors shown in the Console window. Errors (red text) will prevent the tool from being generated and it will not appear.
 :::
 
-<img src="/img/pcs-setup-tool.png" width="540" />
+<img src={useBaseUrl('/img/pcs-setup-tool.png')} width="540" />
+
 <!-- ![Example Image](/img/setup-tool.png) -->
 
 ### Language
@@ -42,7 +45,7 @@ Multiple presets are available for many widely used avatars to ensure easier set
 
 - You can use `Generic` preset for any avatar that does not have a dedicated preset available. PCS works with all humanoid avatars.
 
-<img src="/img/pcs-reference.png" width="540" />
+<img src={useBaseUrl('/img/pcs-reference.png')} width="540" />
 - Using `Reference` preset allows you to manually define the position by referencing other objects, such as an SPS socket location that you may have already properly positioned beforehand.
 - Use `Find SPS Socket` button to search for Wholesome SPS Sockets and place them automatically.
 
@@ -57,7 +60,7 @@ Full value at 1.0 is recommended, unless you feel it is too easy to trigger.
 This is a customizable additional position for PCS. You can override default PCS position with this custom position.
 For example, you may use it to add additional sound positions for hands, feet, or toys.
 
-<img src="/img/pcs-custom-position.png" width="540" />
+<img src={useBaseUrl('/img/pcs-custom-position.png')} width="540" />
 - You can select up to 8 additional positions. Including the main positions, this makes a total of 12. You can freely drag and place each position as desired and customize the menu name.
 - Use the buttons to auto select hands and feet positions. You may need to adjust the position and rotation afterward.
 
@@ -96,7 +99,7 @@ It is strongly not recommended for general use, as this will remove all sound po
 After clicking the Apply button, PCS will be added to your avatar. Done!
 - Various assets, including animator controller and menus, will also be generated per avatar.
 These items can be found at `Assets/!Dismay Custom/Penetration Contact System/#GENERATE`
-<img src="/img/pcs-apply.png" width="540" />
+<img src={useBaseUrl('/img/pcs-apply.png')} width="540" />
 
 ---
 
@@ -105,21 +108,21 @@ This is an <u>optional step that you may skip</u>. It mainly covers how to repos
 
 ### Select Menu Location
 For **VRCFury**,  you can add a menu name as a prefix to place the PCS menu inside it.
-<img src="/img/pcs-menu-prefix1.png" width="540" />
+<img src={useBaseUrl('/img/pcs-menu-prefix1.png')} width="540" />
 
 For **Modular Avatar**, you can click `Select Menu` button.
-<img src="/img/pcs-menu-prefix2.png" width="540" />
+<img src={useBaseUrl('/img/pcs-menu-prefix2.png')} width="540" />
 
 
 ### Position Adjustment
 You can move or rotate `<PCS Target> Xxx` to achieve more precise positioning. 
 These positions determine where PCS will move when it is enabled through the menu. The position guide marker will indicate which direction it should be facing.
-<img src="/img/pcs-guide1.png" width="540" />
+<img src={useBaseUrl('/img/pcs-guide1.png')} width="540" />
 
 ### Scale Adjustment
 You can adjust the size of `PCS Contacts` to make PCS larger or smaller as needed. In some cases, PCS may appear too small on certain avatars due to an unusual Armature scale.
-<img src="/img/pcs-guide2.png" width="540" />
+<img src={useBaseUrl('/img/pcs-guide2.png')} width="540" />
 
 ### Quick Access Menu
 This is the shortcut menu that helps you locate sound object positions. It also allows you to toggle the guide icons on or off and spawn a test penetrator for testing purposes.
-<img src="/img/pcs-quick-access.png" width="540" />
+<img src={useBaseUrl('/img/pcs-quick-access.png')} width="540" />
