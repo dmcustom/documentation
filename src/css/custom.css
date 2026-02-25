@@ -33,6 +33,11 @@
     --docusaurus-highlighted-code-line-bg: rgba(255, 59, 125, 0.15);
 }
 
+.hero--primary {
+  background-color: #c10945; /* เปลี่ยนสีพื้นหลัง Hero */
+  color: white; /* เปลี่ยนสีตัวหนังสือทั้งหมดใน Hero */
+}
+
 .verticalButtons {
   display: flex;
   flex-direction: column;

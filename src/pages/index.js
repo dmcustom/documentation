@@ -15,14 +15,25 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="https://discord.gg/NGRgd9rv8G">
-            Discord 📢
-          </Link>
+
+        <p className="hero__subtitle">
+          {siteConfig.tagline}
+        </p>
+
+        {/* 🔥 Discord Badge */}
+        <div style={{ marginTop: "20px", textAlign: "center" }}>
+          <a
+            href="https://discord.gg/NGRgd9rv8G"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://img.shields.io/discord/1162524097830461440?style=for-the-badge&logo=discord&label=Discord&color=5865F2&labelColor=2f3136"
+              alt="Discord"
+            />
+          </a>
         </div>
+
       </div>
     </header>
   );
@@ -34,8 +45,8 @@ export default function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
+      <HomepageHeader />	  	  
+	  <main>
         <HomepageFeatures />
       </main>
     </Layout>
