@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.pcs.category.Guide": {
+    "message": "คู่มือการใช้งาน",
+    "description": "The label for category 'Guide' in sidebar 'pcs'"
+  },
+  "sidebar.pcs.category.Customization": {
+    "message": "การปรับแต่ง",
+    "description": "The label for category 'Customization' in sidebar 'pcs'"
+  },
+  "sidebar.lms.category.Guide": {
+    "message": "คู่มือการใช้งาน",
+    "description": "The label for category 'Guide' in sidebar 'lms'"
+  }
+}

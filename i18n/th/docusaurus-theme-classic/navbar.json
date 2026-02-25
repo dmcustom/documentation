@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Dismay Custom",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "My Site Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Penetration Contact System": {
+    "message": "Penetration Contact System",
+    "description": "Navbar item with label Penetration Contact System"
+  },
+  "item.label.Lovestick Massages SFX": {
+    "message": "Lovestick Massages SFX",
+    "description": "Navbar item with label Lovestick Massages SFX"
+  },
+  "item.label.Discord": {
+    "message": "Discord",
+    "description": "Navbar item with label Discord"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Penetration Contact System": {
+    "message": "Penetration Contact System",
+    "description": "The label of footer link with label=Penetration Contact System linking to /docs/tutorial-pcs/avatar-setup"
+  },
+  "link.item.label.Lovestick Massages SFX": {
+    "message": "Lovestick Massages SFX",
+    "description": "The label of footer link with label=Lovestick Massages SFX linking to /docs/tutorial-lms/avatar-setup"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/NGRgd9rv8G"
+  },
+  "link.item.label.X": {
+    "message": "X",
+    "description": "The label of footer link with label=X linking to https://x.com/dismay_vrc"
+  },
+  "link.item.label.LinkTree": {
+    "message": "LinkTree",
+    "description": "The label of footer link with label=LinkTree linking to https://linktr.ee/dismay.vrc"
+  },
+  "link.item.label.VRChat": {
+    "message": "VRChat",
+    "description": "The label of footer link with label=VRChat linking to https://vrchat.com/home/user/usr_b6835fb7-5501-4e2f-b667-6b9f41baebe3"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 My Project, Inc. Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}
