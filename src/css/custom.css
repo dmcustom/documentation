@@ -64,3 +64,7 @@ table td:first-child {
 table img {
   display: block;
 }
+
+.menu__link {
+  line-height: 1.6;
+}
