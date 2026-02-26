@@ -35,7 +35,7 @@ This menu allows you to generate sounds based on your own movements, even withou
 | <img src={useBaseUrl('/img/menu/pcs-menu-self-touch.png')} width="128" /> | <div><strong>Self-Touch</strong><br/>This menu controls the self-interaction feature. When enabled, the avatar owner can trigger sounds through self-contact, generate sounds from owner's fingers or toys. When disabled, the owner will not be able to touch themselves. Other players will still be able to interact with you.</div> |
 | <img src={useBaseUrl('/img/menu/pcs-menu-auto-detect.png')} width="128" /> | <div><strong>Auto-Detect</strong><br/>When this menu is enabled, PCS will automatically switch the sound & location menu where the interaction is currently occurring.</div> |
 | <img src={useBaseUrl('/img/menu/pcs-menu-offset2.png')} width="128" /> | <div><strong>Detection Offset</strong><br/>This menu allows you to rotate the detector to different angles. It is highly useful in practice, especially if you experience detection interruptions while performing complex poses, such as standing sex positions, which increases the chance of detection failure due to front-back movement that does not align with the direction of the hole (up-down).</div> |
-| <img src={useBaseUrl('/img/menu/pcs-menu-force-orgasm.png')} width="128" /> | <div><strong>Force Orgasm</strong><br/>This button will instantly trigger climax event for your avatar, playing the corresponding fluid sound, voice, and visual effects. If you enable the **Lust Feature**, your arousal value will also be automatically set to maximum.</div> |
+| <img src={useBaseUrl('/img/menu/pcs-menu-force-orgasm.png')} width="128" /> | <div><strong>Force Orgasm</strong><br/>This button will instantly trigger climax event for your avatar, playing the corresponding fluid sound, voice, and visual effects. If you enable the **Lust Feature**, your arousal value will also be automatically set to maximum. You can also hole this menu to perform endless squirt.</div> |
 | <img src={useBaseUrl('/img/menu/pcs-menu-squirt.png')} width="128" /> | <div><strong>Squirting</strong><br/>When this menu is enabled, every penetration — whether by fingers, a Plug, or any custom interaction with PCS — will trigger the fluid effect in sync with the motion.</div> |
 | <img src={useBaseUrl('/img/menu/pcs-menu-edging.png')} width="128" /> | <div><strong>Edging (Stop Lust)</strong><br/>When this menu is enabled, PCS will temporarily stop increasing the arousal value. Regardless of any interactions, the arousal level will remain fixed.</div> |
 | <img src={useBaseUrl('/img/menu/pcs-menu-voice.png')} width="128" /> | <div><strong>Voice</strong><br/>This menu is used to enable or disable moaning voice. Only if you use Voice Pack, this option will be shown in the menu.</div> |
@@ -44,7 +44,7 @@ This menu allows you to generate sounds based on your own movements, even withou
 
 
 :::tip Tip
-When using a futa avatar (an avatar with male genitalia), PCS may eventually become interrupted and stop generating sounds.
+When using a futa avatar (an avatar with penis and pussy), PCS may eventually become interrupted and stop generating sounds.
 This happens because PCS can detect the owner’s own SPS Plug. Setting the **Self-Touch** menu to `OFF` will resolve this issue.
 :::
 

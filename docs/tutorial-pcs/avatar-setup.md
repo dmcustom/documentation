@@ -65,7 +65,7 @@ For example, you may use it to add additional sound positions for hands, feet, o
 - Use the buttons to auto select hands and feet positions. You may need to adjust the position and rotation afterward.
 
 ### Lust Feature
-The is the satisfaction system that allows you to accumulate arousal points from insertions. Once the point reaches its maximum level, it will automatically trigger a climax effect.
+This is the satisfaction system that allows you to accumulate arousal points from insertions. Once the point reaches its maximum level, it will automatically trigger a climax effect.
 Additionally, this system unlocks the moaning sound feature.
 
 - **Lust Multiplier:**

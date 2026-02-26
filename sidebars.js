@@ -44,6 +44,7 @@ const sidebars = {
       label: 'Guide',
       items: [
         'tutorial-lms/avatar-setup',	
+        'tutorial-lms/how-to-use',		
       ],
     },
   ],
