@@ -47,6 +47,8 @@ const sidebars = {
         'tutorial-lms/how-to-use',		
       ],
     },
+	'tutorial-lms/faq',
+	'tutorial-lms/changelog',	
   ],
 
 };
