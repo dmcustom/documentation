@@ -16,12 +16,11 @@
  */
 const sidebars = {
 
-  pcs: [ 'tutorial-pcs/intro',
+  pcs: [ 'tutorial-pcs/intro', 'tutorial-pcs/avatar-setup',
     {
       type: 'category',
       label: 'Guide',
       items: [
-        'tutorial-pcs/avatar-setup',
         'tutorial-pcs/how-to-use',
 		'tutorial-pcs/audio-manager',
 		'tutorial-pcs/sps-link',		
@@ -38,12 +37,11 @@ const sidebars = {
 	'tutorial-pcs/changelog',
   ],
   
-  lms: [ 'tutorial-lms/intro',
+  lms: [ 'tutorial-lms/intro', 'tutorial-lms/avatar-setup',
     {
       type: 'category',
       label: 'Guide',
-      items: [
-        'tutorial-lms/avatar-setup',	
+      items: [	
         'tutorial-lms/how-to-use',		
       ],
     },
