@@ -115,7 +115,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/pcs-guide1.png')} width="540" />
 
 ### การปรับขนาด
-คุณสามารถปรับขนาดของ PCS Contacts เพื่อทำให้ PCS มีขนาดใหญ่ขึ้นหรือเล็กลงตามต้องการได้
+คุณสามารถปรับขนาดของ `PCS Contacts` เพื่อทำให้ PCS มีขนาดใหญ่ขึ้นหรือเล็กลงตามต้องการได้
 ในบางกรณี PCS อาจดูเล็กเกินไปบนอวาตาร์บางตัว เนื่องจากสเกลของ Armature ที่ไม่ปกติ
 <img src={useBaseUrl('/img/pcs-guide2.png')} width="540" />
 

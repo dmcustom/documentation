@@ -40,7 +40,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 | <img src={useBaseUrl('/img/menu/pcs-menu-squirt.png')} width="128" /> | <div><strong>Squirting</strong><br/>เมื่อเปิดเมนูนี้ การสอดใส่ทุกประเภท ไม่ว่าจะเป็นนิ้ว Plug หรือการโต้ตอบแบบกำหนดเองกับ PCS จะกระตุ้นเอฟเฟกต์ของเหลวให้ทำงานสอดคล้องกับจังหวะการเคลื่อนไหว</div> |
 | <img src={useBaseUrl('/img/menu/pcs-menu-edging.png')} width="128" /> | <div><strong>Edging (Stop Lust)</strong><br/>เมื่อเปิดเมนูนี้ PCS จะหยุดการเพิ่มค่าความเร้าชั่วคราว ไม่ว่าจะมีการโต้ตอบใด ๆ ระดับความเร้าจะคงที่ไม่เปลี่ยนแปลง</div> |
 | <img src={useBaseUrl('/img/menu/pcs-menu-voice.png')} width="128" /> | <div><strong>Voice</strong><br/>เมนูนี้ใช้สำหรับเปิดหรือปิดเสียงคราง โดยตัวเลือกนี้จะแสดงในเมนูก็ต่อเมื่อคุณใช้งาน Voice Pack</div> |
-| <img src={useBaseUrl('/img/menu/pcs-menu-reset.png')} width="128" /> | <div><strong>Reset</strong><br/>ปุ่มนี้ใช้สำหรับรีเซ็ตระบบทั้งหมด รวมถึงรีเซ็ตค่าความเร้ากลับไปเป็น 0 เพื่อให้คุณสามารถเริ่มต้นใหม่ได้หลังจากถึงจุดสุดยอด</div> |
+| <img src={useBaseUrl('/img/menu/pcs-menu-reset.png')} width="128" /> | <div><strong>Reset</strong><br/>ปุ่มนี้ใช้สำหรับรีเซ็ตระบบทั้งหมด รวมถึงรีเซ็ตค่าความเร้ากลับไปเป็น 0 เพื่อให้เริ่มต้นใหม่ได้หลังจากถึงจุดสุดยอด</div> |
 
 :::tip ตำแนะนำ
 กรณีที่ใช้อวาตาร์แบบฟูตะ (การใช้ PCS ในอวาตารหญิงที่มีอวัยวะเพศชาย) นั้นอาจทำให้ PCS ติดขัดและหยุดสร้างเสียงในที่สุด สิ่งนี้เกิดจากการที่ PCS สามารถตรวจจับ SPS Plug ของเจ้าของได้ การตั้งค่าเมนู **Self-Touch** เป็น `OFF` จะช่วยแก้ปัญหานี้
