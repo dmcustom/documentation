@@ -1,7 +1,7 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # วิธีการติดตั้ง
-คู่มือนี้จะอธิบายวิธีติดตั้งระบบ LMS ลงบนอวาตาร์ของคุณ โดยใช้เครื่องมือแบบไม่ทำลายต้นฉบับ (Non-Destructive) เช่น Modular Avatar และ VRCFury ขณะนี้ยังไม่รองรับการติดตั้งแบบแมนนวล (Manual Installation) สำหรับวิดีโอสอนการติดตั้ง กรุณาดูได้ที่ [the tutorial video playlist](https://youtube.com/playlist?list=PLEvAOTfSR8u0x16IbOgqZI-rE6b5NsoJJ&si=M9NVg3kjnVUZqOjQ)
+คู่มือนี้จะอธิบายวิธีติดตั้งระบบ LMS ลงบนอวาตาร์ของคุณ โดยใช้เครื่องมือแบบไม่ทำลายต้นฉบับ (Non-Destructive) เช่น Modular Avatar และ VRCFury ขณะนี้ยังไม่รองรับการติดตั้งแบบแมนนวล (Manual Installation) สำหรับวิดีโอสอนการติดตั้ง กรุณาดูได้ที่ [ลิสต์วิดีโอสอน](https://youtube.com/playlist?list=PLEvAOTfSR8u0x16IbOgqZI-rE6b5NsoJJ&si=M9NVg3kjnVUZqOjQ)
 
 ## 1. สิ่งที่ต้องเตรียม
 ก่อนอื่น ตรวจสอบให้แน่ใจว่าคุณมีโปรเจกต์อวาตาร์ที่ติดตั้ง SDK เวอร์ชันล่าสุดแล้ว เวอร์ชันขั้นต่ำที่รองรับคือ 3.7.0 แต่ขอแนะนำอย่างยิ่งให้ใช้เวอร์ชันล่าสุดเพื่อความเสถียรและความเข้ากันได้ที่ดีที่สุด
