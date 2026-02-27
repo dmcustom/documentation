@@ -63,8 +63,9 @@ This section applies to distributors of pre-made avatars with LMS pre-installed,
 
 **Commissioner / Service Provider** refers to an individual who is hired to create or customize an avatar according to a client’s specific requirements, operating on a per-project basis within the agreed scope of work.
 
-- You are required to obtain a `Commercial Use License` if you intend to install LMS on avatars that will be sold, or on avatars created or modified under commission.
-- When exporting an avatar package, you must exclude the LMS script files from the package in order to prevent unauthorized redistribution of the system.
+You are required to obtain a `Commercial Use License` if you intend to install LMS on avatars that will be sold, or on avatars created or modified under commission.
+
+When exporting an avatar package, you must exclude the LMS script files from the package in order to prevent unauthorized redistribution of the system.
   - The script folder that must be excluded is located at: `Assets/!Dismay Custom/Lovestick Massages SFX/Editor/Scripts`.
 <img src={useBaseUrl('/img/pcs-script.png')} width="540" /> 
 :::info Info
