@@ -41,6 +41,9 @@ const config = {
       en: {
         label: 'English',
       },
+      jp: {
+        label: 'Japanese',
+      },	  
 	  th: {
 		label: 'ไทย',
       },
@@ -110,7 +113,7 @@ const config = {
 		  {
 			type: 'localeDropdown',
 			position: 'right',
-		  },						  
+		  },		  
 		  {
             href: 'https://discord.gg/NGRgd9rv8G',
             label: 'Discord',

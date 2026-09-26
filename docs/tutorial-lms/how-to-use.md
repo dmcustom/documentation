@@ -4,7 +4,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Since LMS uses the Avatar Contact system for detection. Therefore, you must enable player-to-player contact permissions in the game setting menu. Otherwise, LMS will not work!
 
-By default, the system can detect penetration or interaction with SPS Sockets and the avatar’s hands. If you would like LMS to detect interactions with other objects beyond these, please refer to [How to Add Contact](./faq#how-to-add-a-contact-and-make-it-interact-with-pcs)
+By default, the system can detect penetration or interaction with SPS Sockets and the avatar’s hands.
 
 ## 1. Setting Avatar Interaction
 These are the required in-game settings that must be configured to enable the Avatar Contact system.

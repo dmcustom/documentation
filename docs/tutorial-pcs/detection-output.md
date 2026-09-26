@@ -9,6 +9,24 @@ You are expected to have basic knowledge of editing an Animator Controller (Play
 
 ## Getting Started
 Below is a table list of some available parameters with descriptions, which you can use in your animator controller.
+
+### For Version 1.11 or Newer
+| Name | Description | Type |
+|----------|---------------|-----|
+| `pcs/output/move-in` | True once, then false, when a plug goes inward | Bool |
+| `pcs/output/move-out` | True once, then false, when a plug goes outward | Bool |
+| `pcs/output/smash-hit` | True once, then false, when a plug goes inward with greater intensity (speed) | Bool |
+| `pcs/output/smash-intensity` | Level of smash intensity (`1-4`) for soft, medium, hard, and heavy. | Int |
+| `pcs/output/depth-value` | The depth value calculated from the outer area of ​​the spherical receiver to the center point (`0.0-1.0`) | Float |
+| `pcs/output/slide-in` | Inward sliding checker, `0` means still, (`0.01-1.0`) means is sliding inward.| Float |
+| `pcs/contact/slide-out` | Outward sliding checker, `0` means still, (`0.01-1.0`) means is slide outward. | Float |
+| `pcs/output/hole-exit` | True once, then false, when a plug exit the hole or the detection area. | Bool |
+| `pcs/output/quicken` | True when performing fast strokes. False when stop or resting from fast strokes. | Bool |
+| `pcs/satisfaction/lust` | Lust value in float (`-1.0,1.0`). Climax event happens when this value equals `0.99`, not `1.0` | Float |
+| `pcs/satisfaction/lust-int` | Lust value in integer (`0-100`). Climax event happens when this value equals `100`| Int |
+| `pcs/satisfaction/event` | Current event state (`1-10`) calculated from lust level. Where 10 is climax event. | Int |
+
+### For Version 1.10 or Older
 | Name | Description | Type |
 |----------|---------------|-----|
 | `pcs/contact/in` | True once, then false, when a plug goes inward | Bool |
