@@ -75,6 +75,3 @@ These positions determine where PCS will be attached to when selected through th
 ### Scale Adjustment
 You can adjust the size of `PCS Contacts` to make PCS larger or smaller as needed. In some cases, PCS may appear too small on certain avatars due to an unusual Armature scale.
 <img src={useBaseUrl('/img/pcs-guide2.png')} width="540" />
-
-### Quick Access Menu
-<img src={useBaseUrl('/img/pcs-quick-access.png')} width="540" />

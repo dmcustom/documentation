@@ -2,11 +2,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # How to Use
 
-Since PCS uses the Avatar Contact system for detection. Therefore, you must enable player-to-player contact permissions in the game setting menu. Otherwise, PCS will not work!
-
-By default, the system can detect penetration or interaction with SPS Plugs and the avatar’s hands.
-- If you would like PCS to detect interactions with other objects beyond these, please refer to [How to Add Contact](./faq#how-to-add-a-contact-and-make-it-interact-with-pcs)
-
 ## Setting Avatar Interaction
 These are the required in-game settings that must be configured to enable the Avatar Contact system.
 <img src={useBaseUrl('/img/pcs-contact-setting.png')} width="540" />
@@ -14,7 +9,7 @@ These are the required in-game settings that must be configured to enable the Av
 - **Avatar Allowed to Interact** > `Friends, Everyone`
 - **Avatar Self Interact** > `ON`
 
-## Power On!
+## Turn On PCS
 1. Go inside the PCS menu and toggle `ON` the menu named **ON/OFF**
 2. Select the sound in the **Sounds & Positions** menu as you like to use.
    - Only one sound or position can be selected at a time due to VRChat audio limitation.
@@ -50,7 +45,7 @@ When toggle on your own SPS plug while having PCS enabled with their position ov
 | <img src={useBaseUrl('/img/menu/pcs-menu-reset.png')} width="128" /> | <div><strong>Reset</strong><br/>This button is used to reset the entire system. It also resets the arousal value back to 0, allowing you to start again after a climax.</div> |
 
 ## Sounds & Positions Menu
-This is a sub-menu used to switch the detector position and sound (sound selection menu). Only one sound type and position can be active at a time, [due to VRChat audio limitation](./faq). The available menu options will reflect the configuration you selected during the setup process.
+This is a sub-menu used to switch the detector position and sound (sound selection menu). Due to [VRChat Audio Limitation](./faq), only one sound type and position can be active at a time. The amount of available menus will reflect the configuration you selected during the setup process.
 If you have added additional positions (Custom Positions), the menu names you assigned will appear in this sub-menu.
 
 | Image | Description |
@@ -61,14 +56,9 @@ If you have added additional positions (Custom Positions), the menu names you as
 | <img src={useBaseUrl('/img/menu/pcs-menu-ass.png')} width="128" /> | <div><strong>Ass</strong><br/>This menu is used to enable anal sounds. When activated, PCS will reposition itself to the ass target.</div> |
 | <img src={useBaseUrl('/img/menu/pcs-menu-custom.png')} width="128" /> | <div><strong>Custom Position</strong><br/>This is a special menu used to override the default positions, for example, hands and feet.</div> |
 
-:::tip Tip
+:::info Sound Selection Menu
 <img src={useBaseUrl('/img/menu/pcs-menu6.png')} width="540" />
-To use the custom position menu.
-- First, select the sound (mouth, boobs, pussy, ass), then choose the corresponding custom position.
-   - For example, the `Mouth` menu normally plays blowjob sounds at the mouth area. If you also select `Right Hand` custom menu, PCS will be moved from the mouth to the hand instead.
-   - As a result, the blowjob sound will be triggered at the right hand rather than the mouth.
-   
-- Since v1.11.0, if you select the custom position menu alone without the sound selection menu, PCS will use the new sound set made specific for those custom positions.
+Selecting a main position menu while a custom menu is active will make a main position menu act like Sound Selection instead.
 :::
 
 

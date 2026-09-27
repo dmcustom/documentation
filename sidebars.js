@@ -38,7 +38,8 @@ const sidebars = {
       type: 'category',
       label: 'Release Notes',
       items: [
-'tutorial-pcs/release-notes/r1.11.0',
+'tutorial-pcs/release-notes/r1.11.0-beta.2',
+'tutorial-pcs/release-notes/r1.11.0-beta.1',
 'tutorial-pcs/release-notes/r1.10.0',
 'tutorial-pcs/release-notes/r1.9.2',
 'tutorial-pcs/release-notes/r1.9.1',

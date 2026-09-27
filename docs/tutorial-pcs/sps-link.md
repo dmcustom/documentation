@@ -1,20 +1,21 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# SPS Menu Linking
+# How to Link SPS Menu
 
-Since PCS is designed differently from SPS but serves a similar purpose in adult interactions, convenience is highly valued by most users — especially without having to switch back and forth between menus.
-Eventhough, PCS wasn't made to directly intergate with SPS, we still can link their menu together at least.
-
-## How to Link
-1. Select any SPS Socket that you want to use to control the PCS menu.
+## Menu Linking
+1. Select any **SPS Socket** that you want to use to control the PCS menu.
 2. Enable `Enable Active Animation` option.
-3. Click `Add Action +` and choose `Set an FX Float`
+:::warning warning
+Please refrain from using **Depth Animation** for this setup, as it will repeatedly toggle PCS off when the plug is not inserted and back on when it is inserted.
+:::
+
+3. Click `+` icon and choose `Set an FX Float`
 4. Enter the desired PCS menu parameter into the field. A full list of menu parameters is provided below.
 
 <img src={useBaseUrl('/img/pcs-sps-link.png')} width="960" />
 
 :::tip Tip
-For Custom Position, you can assign both the sound parameter and the custom position parameter together, for example: `pcs/select/pussy` + `pcs/select/custom1`
+For Custom Positions, you can assign both sound selection parameter and custom position parameter together, for example: `pcs/select/pussy` and `pcs/select/custom1`
 :::
 
 | Parameter | Description |
@@ -32,11 +33,7 @@ For Custom Position, you can assign both the sound parameter and the custom posi
 | `pcs/select/custom7` | Toggle on/off custom position #7 |
 | `pcs/select/custom8` | Toggle on/off custom position #8 |
 
-:::warning warning
-Please refrain from using **Depth Animation** for this setup, as it will repeatedly toggle PCS off when the plug is not inserted and back on when it is inserted.
-:::
-
 ## Result
-- The **Sound & Location** menu parameter assigned to an activated SPS socket will also be automatically toggled on.
-- For example, adding `pcs/select/pussy` to SPS pussy socket will also toggle on PCS pussy sound when Pussy Socket is on.
+- When SPS socket activate, the assigned sound selection menu will also be automatically turned on.
+- For example, adding `pcs/select/pussy` to a pussy socket will make it activate along with the socket.
  
